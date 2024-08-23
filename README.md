@@ -7,3 +7,5 @@ Homicide is the killing of a person by another with intent to cause death or ser
 Study from WHO shows that 19 persons out of 100,000 die by homicide and majority of them are men.
 ## Data Extraction
 I downloaded dataset from <a href="https://www.kaggle.com/datasets/joebeachcapital/homicides">kaggle</a>
+
+## Data Cleaning
