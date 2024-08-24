@@ -3,7 +3,13 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [DataCleaning](#DataCleaning)
+- [Definition](#Definition)
+- [Data Extraction](#Data-Extraction)
+- [Data Cleaning](#Data-Cleaning)
+- [Import Libraries](#Import-Libraries)
+- [Exploratory Data Analysis and Visualisation](#Data-Analysis-and-Visualisation)
+- [Findings](#Findings)
+- [Conclusion](#Conclusion)
  
 ## Introduction
 Tools used
@@ -11,13 +17,15 @@ Tools used
 - Excel
 - Kaggle
 
-## What is Homicide
+## Definition
+### What is Homicide
 Homicide is the killing of a person by another with intent to cause death or serious injury, by any means. It excludes death due to legal intervention and operations of war.  
 Study from WHO shows that 19 persons out of 100,000 die by homicide and majority of them are men.
+
 ## Data Extraction
 I downloaded dataset from <a href="https://www.kaggle.com/datasets/joebeachcapital/homicides">kaggle</a> The dataset contains 12 columns and 52179 rows.
 
-## Import libraries we shall use
+## Import Libraries 
 ```python
 import pandas as pd
 import numpy as np
