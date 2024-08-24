@@ -3,7 +3,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Data Cleaning](#Data Cleaning)
+- [DataCleaning](#DataCleaning)
  
 ## Introduction
 Tools used
