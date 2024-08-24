@@ -1,6 +1,9 @@
 # Homicides Data Analysis in Python
 ![image](https://github.com/user-attachments/assets/d094358f-4385-4b34-8525-1226818571c5)  
 
+## Table of Contents
+- [Introduction](#introduction)
+ 
 ## Intoduction
 Tools used
 - jupyter notebook
