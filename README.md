@@ -26,7 +26,7 @@ warnings.filterwarnings('ignore')
 ```
 
 ## Data Cleaning
-Date column was not properly formated. I loaded the data to excel. Click on date column    
+Date column was not properly formated. Load the data to excel. Click on date column    
 ![image](https://github.com/user-attachments/assets/f3b9bfe1-92de-4b76-ac50-5204f97579ab)  
 
 then on data tab click text to columns.  
