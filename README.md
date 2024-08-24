@@ -229,8 +229,19 @@ fig.show()
 ![image](https://github.com/user-attachments/assets/cb9dc727-4cbe-43b7-b578-d4c61f73ae5e)  
 
 ## Findings
+- California state had the highest number of homicides rate followed by Texas, Illinois
+- Colorado state had the lowest number of homicides rate followed by minnesota and new mexico
+- Chicago city had the highest number of homicides rate of over 5000 while had the lowest number of homicides rate
+- Over the years number  of homicides has been rising rapidly
+- July had the highest number of homicides rate followed by june and august
+- Most of the homicides occured during weekend that is saturday and sunday
+- Black men experienced the highest number of homicides
+- Over 30000 of homicides happened to people aged between 20 and 40
 
-
+## Conclusion
+- Colarado, Minnesota, and new mexico are one of the safest places to live in
+- As a black person who is a male chicago is one of the most dangerous places to live
+- Most of the homicides occur during summer
 
 
 
