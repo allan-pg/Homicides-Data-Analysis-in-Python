@@ -138,8 +138,8 @@ sns.heatmap(cor, annot = True, cmap = 'icefire')
 # In[67]:
 
 
-top_10_states = df['state'].value_counts().sort_values(ascending = False).head(10)
-bottom_10_states = df['state'].value_counts().sort_values(ascending = True).head(10)
+top_10_states = df['state'].value_counts().sort_values(ascending = True).head(10)
+bottom_10_states = df['state'].value_counts().sort_values(ascending = False).head(10)
 
 
 # In[72]:
@@ -148,13 +148,13 @@ bottom_10_states = df['state'].value_counts().sort_values(ascending = True).head
 plt.figure(figsize = (18, 6))
 
 plt.subplot(1, 2, 1)
-top_10_states.plot(kind = 'bar')
+top_10_states.plot(kind = 'barh')
 plt.title('Top 10 states with highest homicides')
 plt.ylabel('Number of homicides')
 
 
 plt.subplot(1, 2, 2)
-bottom_10_states.plot(kind = 'bar')
+bottom_10_states.plot(kind = 'barh')
 plt.title('Bottom 10 states with highest homicides')
 plt.ylabel('Number of homicides')
 plt.show()
@@ -165,8 +165,8 @@ plt.show()
 # In[76]:
 
 
-top_10_cities = df['city'].value_counts().sort_values(ascending = False).head(10)
-bottom_10_cities = df['city'].value_counts().sort_values(ascending = True).head(10)
+top_10_cities = df['city'].value_counts().sort_values(ascending = True).head(10)
+bottom_10_cities = df['city'].value_counts().sort_values(ascending = False).head(10)
 
 
 # In[77]:
@@ -175,17 +175,16 @@ bottom_10_cities = df['city'].value_counts().sort_values(ascending = True).head(
 plt.figure(figsize = (18, 6))
 
 plt.subplot(1, 2, 1)
-top_10_cities.plot(kind = 'bar')
+top_10_cities.plot(kind = 'barh')
 plt.title('Top 10 Cities with highest homicides')
 plt.ylabel('Number of homicides')
 
 
 plt.subplot(1, 2, 2)
-bottom_10_cities.plot(kind = 'bar')
+bottom_10_cities.plot(kind = 'barh')
 plt.title('Bottom 10 Cities with highest homicides')
 plt.ylabel('Number of homicides')
 plt.show()
-
 
 # ### Homicides trend over time
 
