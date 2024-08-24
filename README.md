@@ -89,45 +89,45 @@ sns.heatmap(cor, annot = True, cmap = 'icefire')
 
 4. Find states with the highest and lowest homicides rate and visualize your findings
 ```python
-top_10_states = df['state'].value_counts().sort_values(ascending = False).head(10)
-bottom_10_states = df['state'].value_counts().sort_values(ascending = True).head(10)
+top_10_states = df['state'].value_counts().sort_values(ascending = True).head(10)
+bottom_10_states = df['state'].value_counts().sort_values(ascending = False).head(10)
 
 plt.figure(figsize = (18, 6))
 
 plt.subplot(1, 2, 1)
-top_10_states.plot(kind = 'bar')
+top_10_states.plot(kind = 'barh')
 plt.title('Top 10 states with highest homicides')
 plt.ylabel('Number of homicides')
 
 
 plt.subplot(1, 2, 2)
-bottom_10_states.plot(kind = 'bar')
+bottom_10_states.plot(kind = 'barh')
 plt.title('Bottom 10 states with highest homicides')
 plt.ylabel('Number of homicides')
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/07530e55-d9dd-4703-9db7-8d9e1b9fb870)  
+![image](https://github.com/user-attachments/assets/b8437d39-80d5-44ba-926c-6a298afd5c83)
 
 5. Number of Homicides by city
 ```python
-top_10_cities = df['city'].value_counts().sort_values(ascending = False).head(10)
-bottom_10_cities = df['city'].value_counts().sort_values(ascending = True).head(10)
+top_10_cities = df['city'].value_counts().sort_values(ascending = True).head(10)
+bottom_10_cities = df['city'].value_counts().sort_values(ascending = False).head(10)
 
 plt.figure(figsize = (18, 6))
 
 plt.subplot(1, 2, 1)
-top_10_cities.plot(kind = 'bar')
+top_10_cities.plot(kind = 'barh')
 plt.title('Top 10 Cities with highest homicides')
 plt.ylabel('Number of homicides')
 
 
 plt.subplot(1, 2, 2)
-bottom_10_cities.plot(kind = 'bar')
+bottom_10_cities.plot(kind = 'barh')
 plt.title('Bottom 10 Cities with highest homicides')
 plt.ylabel('Number of homicides')
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/2f2a0026-6379-47c2-826b-b626e610d5d0)  
+![image](https://github.com/user-attachments/assets/e48395d3-47c4-418a-b4ae-a61588ca9648)
 
 6. Homicides trend over time
 - Yearly
@@ -237,7 +237,7 @@ fig.show()
 - Colorado state had the lowest number of homicides rate followed by minnesota and new mexico
 - Chicago city had the highest number of homicides rate of over 5000 while had the lowest number of homicides rate
 - Over the years number  of homicides has been rising rapidly
-- July had the highest number of homicides rate followed by june and august
+- July had the highest number of homicides rate followed by june and august during summer
 - Most of the homicides occured during weekend that is saturday and sunday
 - Black men experienced the highest number of homicides
 - Over 30000 of homicides happened to people aged between 20 and 40
