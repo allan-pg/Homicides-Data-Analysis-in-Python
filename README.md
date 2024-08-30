@@ -118,7 +118,7 @@ plt.title('Top 10 states with lowest homicides')
 plt.ylabel('Number of homicides')
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/b8437d39-80d5-44ba-926c-6a298afd5c83)
+![image](https://github.com/user-attachments/assets/88a19694-9ddb-41d0-a210-15722597b09f)
 
 5. Number of Homicides by city
 ```python
@@ -139,7 +139,7 @@ plt.title('Top 10 Cities with lowest homicides')
 plt.ylabel('Number of homicides')
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/e48395d3-47c4-418a-b4ae-a61588ca9648)
+![image](https://github.com/user-attachments/assets/9143fde9-528a-4d55-b716-95457d688ae8)
 
 6. Homicides trend over time
 - Yearly
