@@ -255,9 +255,17 @@ fig.show()
 - Over 30000 of homicides happened to people aged between 20 and 40
 
 ## Conclusion
+#### Does race and gender have an influence on number of homicides?
+- Yes it does because most homicides affect men and over 60% are black men
 - Colarado, Minnesota, and new mexico are one of the safest places to live in
-- As a black person who is a male chicago is one of the most dangerous places to live
+#### Does the season e.g winter, autumn, summer... have an influence on number of homicides?
 - Most of the homicides occur during summer
+### Does population in a city have an influence on number of homicides?
+- Yes as the population in a city increases so does the number of homicides
+#### What is the overall trend over the years on number of homicides
+- The number of homicides have been increasing at a rapid rate over time
+#### Does the day of week have an influence on number of homicides?
+- Yes most homicides occured during weekends that is Sarturday and Sunday 
 
 
 
