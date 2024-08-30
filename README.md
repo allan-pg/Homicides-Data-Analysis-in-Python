@@ -114,7 +114,7 @@ plt.ylabel('Number of homicides')
 
 plt.subplot(1, 2, 2)
 bottom_10_states.plot(kind = 'barh')
-plt.title('Bottom 10 states with highest homicides')
+plt.title('Top 10 states with lowest homicides')
 plt.ylabel('Number of homicides')
 plt.show()
 ```
@@ -135,7 +135,7 @@ plt.ylabel('Number of homicides')
 
 plt.subplot(1, 2, 2)
 bottom_10_cities.plot(kind = 'barh')
-plt.title('Bottom 10 Cities with highest homicides')
+plt.title('Top 10 Cities with lowest homicides')
 plt.ylabel('Number of homicides')
 plt.show()
 ```
